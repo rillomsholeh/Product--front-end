@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+:root {
+  --green: #02897a;
+  --lightgreen: #edfffc;
+  --black: #22343d;
+  --blue: #4d8dff;
+  --purple: #740a76;
+  --red: #f03e3d;
+  --gray: #afafaf;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-var-green {
+  background-color: var(--green) !important;
+}
+
+.bg-var-lightgreen {
+  background-color: var(--lightgreen) !important;
+}
+
+.bg-var-black {
+  background-color: var(--black) !important;
+}
+
+.text-var-green {
+  color: var(--green) !important;
+}
+
+.text-var-green:hover {
+  color: var(--green) !important;
+}
+
+.text-var-black {
+  color: var(--black) !important;
+}
+
+.text-var-gray {
+  color: var(--gray) !important;
+}
+
+.text-var-white {
+  color: #fff !important;
+}
+
+.rounded-25 {
+  border-radius: 25px;
+}
+
+.outline-gray {
+  border: 1px solid rgb(223, 216, 216) !important;
+}
+
+.theme-shifter {
+  cursor: pointer;
+}
+
+.gradient-down-light {
+  background: url(/public/img/bg/bg-gradient-down-light.png);
+}
+
+.gradient-down-dark {
+  background: url(/public/img/bg/bg-gradient-down-dark.png);
+}
+
+.gradient-up-light {
+  background: url(/public/img/bg/bg-gradient-up-light.png);
+}
+
+.gradient-up-dark {
+  background: url(/public/img/bg/bg-gradient-up-dark.png);
+}
+
+.benefit {
+  background-position-y: 100%;
+}
+
+.developer {
+  background-position-y: 0;
+}
+
+.large-font {
+  font-size: 3.5rem;
+}
+
+.benefit,
+.developer {
+  min-height: 370px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.pill-text {
+  background-color: #fff;
+  display: inline-block;
+  border: 1px solid rgb(252, 248, 248);
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgb(224, 223, 223);
+  padding: 12px 22px;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .benefit,
+  .developer {
+    min-height: 900px;
+  }
+
+  .dis-none {
+    display: none !important;
+  }
+}
